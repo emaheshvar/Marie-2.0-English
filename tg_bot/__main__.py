@@ -18,11 +18,25 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+PM_START_TEXT = """
+Hi {}, my name is {}! If you have any questions on how to use me, read /help - and then head to @GingkiSupport.
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+I'm a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+you can find what makes me tick [here](github.com/emaheshvar/tgbot)!
+
+Feel free to submit pull requests on github, or to contact my support group, @GingkiSupport, with any bugs, questions \
+
+or feature requests you might have :)
+
+I also have a news channel, @GingkiUpdates for announcements on new features, downtime, etc.
+
+You can find the list of available commands with /help.
+
+If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
+.
+
+My future updates will be put into This Channel - @GingkiUpdates
 
 This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
 you can create clone same like me..
